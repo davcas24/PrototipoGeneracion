@@ -240,7 +240,7 @@ p,ul li,ol li{
 }
 .agileinfo_logo h1 a span:before,.agileinfo_logo h1 a span:after{
 	content:'';
-	background:url(../images/1.png) no-repeat 0px 0px;
+	//background:url(../images/1.png) no-repeat 0px 0px;
 	display:block;
 	height:32px;
 	width:32px;
