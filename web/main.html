@@ -8,6 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="en">
 <head>
 <title>¡Qué Ofertón!</title>
+<link rel="shortcut icon" type="image/icon" href="./images/oferton.png"/>
 <!-- For-Mobile-Apps-and-Meta-Tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,13 +39,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="mobile-side-menu">
 			<ul>
 				<li class="active"><a href="main.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-				<li><a href="menu.html"><i class="fa fa-compass" aria-hidden="true"></i>Our Food</a></li>
-				<li><a href="blog.html"><i class="fa fa-picture-o" aria-hidden="true"></i>Blog</a></li>
-				<li><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i>Trending</a></li>
-				<li><a href="short-codes.html"><i class="fa fa-dashcube" aria-hidden="true"></i>Categorias</a></li>
-				<li><a href="icons.html"><i class="fa fa-random" aria-hidden="true"></i>Web Icons</a></li>
-				<li><a href="contact.html"><i class="fa fa-map-marker" aria-hidden="true"></i>Location</a></li>
-				<li><a href="sign-in.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+				<li><a href="menu.html"><i class="fa fa-compass" aria-hidden="true"></i>Trending</a></li>
+				<li><a href="blog.html"><i class="fa fa-map-o" aria-hidden="true"></i>Cerca de Ti</a></li>
+				<li class="active"><a href="short-codes.html"><i class="fa fa-dashcube" aria-hidden="true"></i>Categorias</a></li>
+	
+				<li><a href="team.html"><i class="fa fa-users" aria-hidden="true"></i>team</a></li>
+
 			</ul>
 		</div>
 		<div class="navbar">
@@ -188,7 +188,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 console.log("try");
 	 }
 	 </script>
+	 <script src="js/waypoints.min.js"></script>
+	 <script src="js/counterup.min.js"></script>
+	 <script>
+	 	jQuery(document).ready(function( $ ) {
+	 		$('.counter').counterUp({
+	 			delay: 10,
+	 			time: 1000
+	 		});
+	 	});
+	 </script>
+	 <!-- //Stats-Number-Scroller-Animation-JavaScript -->
+	 </div>
+	 </div>
+	 <div class="menu">
+ 		<div class="container">
+ 			<h3 class="agileits_head w3_agileits_head">Ofertas Encontradas<i class="fa fa-users" aria-hidden="true"></i></h3>
+ 			<div class="w3_agileits_team_grids">
+ 				<div class="agile_team_grid">
+ 					<img src="https://static.pullandbear.net/2/photos/2017/V/0/2/p/9470/511/400/9470511400_2_6_2.jpg?t=1492589989421" alt=" " height = "70px" class="img-responsive" />
+ 					<h4>Pull and Bear</h4>
+ 					<h5>Camisa para hombre 40%</h5>
+ 					<ul class="wthree_social_icons">
+ 						<li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+ 						<li><a href="#" class="w3_agileits_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+ 						<li><a href="#" class="w3_agileits_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+ 					</ul>
+ 				</div>
 
+ 				<div class="agile_team_grid">
+ 					<img src="http://www.elheraldo.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=dNnnxoCGC7ktPfVBVuKITc$daE2N3K4ZzOUsqbU5sYu8wKkRmjArVplHGcG8xZgCWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg" alt=" " class="img-responsive" />
+ 					<h4>MetroMedia</h4>
+ 					<h5>Libros de Paulo Cohelo 50%</h5>
+ 					<ul class="wthree_social_icons">
+ 						<li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+ 						<li><a href="#" class="w3_agileits_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+ 						<li><a href="#" class="w3_agileits_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+ 					</ul>
+ 				</div>
+ 				<div class="clearfix"> </div>
+ 			</div>
+ 		</div>
+ 	</div>
 
 
 
@@ -414,7 +455,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="w3ls_footer_grid_right">
 					<ul class="agileits_w3layouts_footer">
 						<li><a href="menu.html">Trending</a></li>
-						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog.html">Cerca de Ti</a></li>
 						<li><a href="team.html">About</a></li>
 					</ul>
 				</div>
