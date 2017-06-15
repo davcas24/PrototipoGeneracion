@@ -2579,4 +2579,8 @@ input.checkbox:checked:after {
 	.reservation {
 		background-position:-200px 0px;
 	}
+
+	.miboton {
+    text-align: center;
+}
 }
