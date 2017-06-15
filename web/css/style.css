@@ -229,7 +229,7 @@ p,ul li,ol li{
 .agileinfo_logo{
 	padding: 4.5em 0 .5em;
     text-align: center;
-    background: #007bcf;
+    background: #9d2600;
 }
 .agileinfo_logo h1 a{
 	font-size:1.2em;
@@ -1185,7 +1185,7 @@ option {
 	margin:1em 0 0;
 }
 .countdown{
-	background: url(../images/banner1.jpg) no-repeat 0px 0px;
+	background: url(http://www.modashopping.com/wp2/wp-content/uploads/2016/11/slide_02_dark.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1204,7 +1204,8 @@ option {
 }
 .agileinfo_stats_grid h3{
 	font-size: 1em;
-    color: #f4b305;
+    color: white;
+		font-size : 25px;
     font-weight: bold;
 }
 .agile_team_grid{
